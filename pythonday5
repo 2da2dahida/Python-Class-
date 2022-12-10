@@ -1,0 +1,6 @@
+import requests
+from bs4 import beautifulsoup
+url = "https://music.bugs.co.kr/chart"
+html = requests.get(url)
+
+print(html)
